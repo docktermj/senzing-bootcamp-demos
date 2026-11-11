@@ -15,12 +15,12 @@ explore and modify, without running the bootcamp yourself.
 Each top-level folder holds demos for one AI assistant.
 Inside it, each subfolder is one business case.
 
-| Business case                  | Folder                                 |
-| ------------------------------ | -------------------------------------- |
-| Banking KYC/KYB and AML        | `<assistant>/banking-kyc-kyb-aml`      |
-| P&C insurance and claims fraud | `<assistant>/pc-insurnce-claims-fraus` |
+| Business case                              | Folder                                          |
+| ------------------------------------------ | ----------------------------------------------- |
+| Banking KYC/KYB and AML (truth set)        | `<assistant>/truthset-banking-kyc-kyb-aml`      |
+| P&C insurance and claims fraud (truth set) | `<assistant>/truthset-pc-insurnce-claims-fraud` |
 
-Replace `<assistant>` with `chatgpt`, `claude` or `kiro`.
+Replace `<assistant>` with `chatgpt`, `claude`, `copilot` or `kiro`.
 
 ## Run a demo
 
@@ -33,7 +33,7 @@ Replace `<assistant>` with `chatgpt`, `claude` or `kiro`.
 
 1. Open your AI assistant and, where the [Senzing Bootcamp] instructions
    tell you to select an empty folder, select a demo folder instead,
-   for example `senzing-bootcamp-demos/claude/banking-kyc-kyb-aml`.
+   for example `senzing-bootcamp-demos/claude/truthset-banking-kyc-kyb-aml`.
 
 1. Do **not** enter `Start the bootcamp`.
    The demo is already a completed bootcamp that you can modify.
